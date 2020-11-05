@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- UIkit CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/uikit@3.5.8/dist/css/uikit.min.css"
+    />
+
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.8/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.8/dist/js/uikit-icons.min.js"></script>
+
+    <!-- Font awesome -->
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="uk-container uk-margin-top">
+      <div class="uk-card uk-card-default uk-card-body">
+        <div class="uk-card-title">Task List</div>
+        <form class="uk-form">
+          <input
+            type="text"
+            class="uk-input uk-margin-top"
+            placeholder="New task"
+          />
+          <input type="submit" value="Add Task" class="uk-button uk-button-primary uk-margin-top">
+        </form>
+      </div>
+      <div class="uk-card uk-card-default uk-card-body">
+        <div class="uk-card-title">Tasks</div>
+        <div class="card-action">
+          <input
+            type="text"
+            class="filter uk-input uk-margin-top"
+            placeholder="Filter tasks"
+          />
+          <ul class="uk-list uk-list-divider"></ul>
+          <a
+            href="#"
+            class="clear-tasks uk-button uk-button-default uk-margin-top"
+            >Clear tasks</a
+          >
+        </div>
+      </div>
+    </div>
+
+    <script src="App.js"></script>
+  </body>
+</html>
